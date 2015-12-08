@@ -1,0 +1,32 @@
+h1 img {
+    position:relative;
+    top:0;
+}
+
+nav {
+    margin-top: 100px;
+}
+
+.overlay-1 {
+    background-color:gray;
+    height:950px;
+}
+
+.overlay-1:hover {
+    background-color:transparent;
+}
+.overlay-2 {
+    background-color:#00AEEF;
+    height:950px;
+}
+
+.overlay-2:hover {
+    background-color: transparent;
+}
+
+.main-bg {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
