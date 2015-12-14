@@ -59,20 +59,22 @@ h2 {
 .navbar-default .navbar-nav > li > a:hover {
     background-color: #00AEEF;
     border-radius: 9px 24px 9px 24px ;
-    transform: skew(-20deg)
+    transform: rotate(-15deg)
 }
 
 /*===========================hero=======================================*/
 
 .jumbotron {
-    height: 350px;
+    height: 600px;
     background-image: url(../images/pool-water.jpg);
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom:0;
 }
-
+.logo {
+    margin-top:125px;
+}
 .jumbotron h1 {
     color: #00AEEF;
     text-shadow: 2px 2px 1px black;
@@ -87,14 +89,19 @@ h2 {
 
 /*===================================stats section==========================================*/
 .stats {
-    height:200px;
+    height:350px;
     background-image: url(../images/wallpaper.png);
     margin-bottom:0;
 }
 .stats .container {
-    padding:40px 0;
+    padding:115px 0;
 }
+/*============================spacer=====================================================*/
 
+.spacer {
+    height:100px;
+    background-color: black;
+}
 /*=====================carousel section====================================================*/
 
 
@@ -112,4 +119,16 @@ h2 {
     height:200px;
     width: 300px;
     margin-bottom: 350px;
+}
+
+.slide-two {
+    background-image: url(../images/carouselTwo.jpg);
+}
+
+.slide-three {
+    background-image: url(../images/carouselThree.jpg);
+}
+
+.slide-four {
+    background-image: url(../images/carouselFour.jpg);
 }
