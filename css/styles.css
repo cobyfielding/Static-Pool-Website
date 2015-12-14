@@ -29,3 +29,87 @@ h2 {
     background-repeat: no-repeat;
 
 }
+
+
+/*==============================practice===================================*/
+.logo {
+    height:200px;
+
+}
+
+.navbar-brand {
+    padding:4px 15px;
+}
+
+
+.navbar {
+    background-color: #F0F0F0;
+    border-color: transparent;
+    margin-bottom: 0px;
+    position:relative;
+    top:0;
+    width:100%;
+    z-index:20;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    text-shadow: 2px 2px 2px #fff;
+    font-weight:700;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #00AEEF;
+    border-radius: 9px 24px 9px 24px ;
+    transform: skew(-20deg)
+}
+
+/*===========================hero=======================================*/
+
+.jumbotron {
+    height: 350px;
+    background-image: url(../images/pool-water.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:0;
+}
+
+.jumbotron h1 {
+    color: #00AEEF;
+    text-shadow: 2px 2px 1px black;
+    padding-top:70px;
+}
+.ad {
+    color:#00AEEF;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px white;
+    font-weight: 800;
+}
+
+/*===================================stats section==========================================*/
+.stats {
+    height:200px;
+    background-image: url(../images/wallpaper.png);
+    margin-bottom:0;
+}
+.stats .container {
+    padding:40px 0;
+}
+
+/*=====================carousel section====================================================*/
+
+
+.carousel-inner .item {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-one {
+    background-image: url(../images/carouselOne.jpg);
+}
+
+.slide-one-logo {
+    height:200px;
+    width: 300px;
+    margin-bottom: 350px;
+}
