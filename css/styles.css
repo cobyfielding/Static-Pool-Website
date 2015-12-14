@@ -43,7 +43,7 @@ h2 {
 
 
 .navbar {
-    background-color: #F0F0F0;
+    background-color: #DDDDDD;
     border-color: transparent;
     margin-bottom: 0px;
     position:relative;
@@ -90,7 +90,7 @@ h2 {
 /*===================================stats section==========================================*/
 .stats {
     height:350px;
-    background-image: url(../images/wallpaper.png);
+    background-image: url(../images/statsBG.png);
     margin-bottom:0;
 }
 .stats .container {
@@ -132,3 +132,53 @@ h2 {
 .slide-four {
     background-image: url(../images/carouselFour.jpg);
 }
+
+/*======================spacer 2 section===============================*/
+.spacer2 {
+    height:600px;
+    background-color:#000;
+}
+.spacer2 h2 {
+    margin-top:0px;
+    padding-top:50px;
+}
+.vikingLogo {
+}
+.paddingAdd {
+    padding-top:100px;
+}
+.vikingPic {
+    height: 300px;
+}
+
+
+/*view section*/
+.view {
+    background-image:url(../images/view.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+.viewh {
+    color: #FFFF00;
+    position:relative;
+    right:100px;
+}
+.viewp {
+    color:#fff;
+    font-size: 1.5em;
+    margin-top:25px;
+    position:relative;
+    right:100px;
+}
+
+
+
+
+
+
+
+
+
+
+asdf
