@@ -12,6 +12,7 @@
 
 </head>
 <body>
+	<!-- ===========================navigation section============================== -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,11 +42,13 @@
 	<section class="headline">
 		<div class="jumbotron">
 			<div class="container text-center">
-				<img class="logo img-responsive center-block" src="images/originalLogo.png" alt="">
+				<img class="logoHero logo img-responsive center-block" src="images/originalLogo.png" alt="">
 				<h2 class="ad">Serving the Central Valley for over 35 years</h2>
 			</div>
 		</div>
 	</section>
+	<!-- ===============================end of nav====================================== -->
+	<!-- ==============================stats section==================================== -->
 	<section class="stats">
 		<div class="container">
 			<div class="row text-center">
@@ -64,9 +67,12 @@
 			</div>
 		</div>
 	</section>
+	<!-- ================================spacer 1 section========================== -->
 	<section class="spacer">
 
 	</section>
+
+	<!-- ===========================carousel section ===============================-->
 	<section>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
@@ -126,7 +132,7 @@
 	    </a>
 	    </div>
 	    <!--========================== END OF CAROUSEL =======================================-->
-
+		<!-- =========================spacer 2 section =======================================-->
 	</section>
 	<section class="spacer2 text-center">
 		<div class="container-fluid">
@@ -142,6 +148,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- ==============================view section============================================== -->
 	<section class="view">
 		<div class="container-fluid">
 			<div class="row">
@@ -152,6 +159,8 @@
 			</div>
 		</div>
 	</section>
+	<!-- =========================screen split section=========================================== -->
+	
 </body>
 
 
@@ -167,54 +176,5 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-	// set CountUp options
-	// you don't need to do this - you can use the default options
-	var useOnComplete = false,
-		useEasing = true,
-		useGrouping = true,
-		options = {
-			useEasing : useEasing, // toggle easing
-			useGrouping : useGrouping, // 1,000,000 vs 1000000
-			separator : ',', // character to use as a separator
-			decimal : '.', // character to use as a decimal
-		}
-	var demo, code, data, stars;
-	// create instance
-	window.onload = function() {
-		// setup CountUp object
-		demo = new CountUp('myTargetElement', 0, 94.62, 2, 2.5, options);
-		// you could do demo.start() right here but we are getting actual current star count from github api below
-		// since it is an asynchronous call, we fire start() in the success fn of the XMLHttpRequest object
-		getStars.send();
-		// display version (no hassling with markup!)
-		document.getElementById('version').innerHTML = 'v'+demo.version();
-	}
-	function swapValues() {
-		var oldStartVal = document.getElementById("startVal").value;
-		var oldEndVal = document.getElementById("endVal").value;
-		document.getElementById("startVal").value = oldEndVal;
-		document.getElementById("endVal").value = oldStartVal;
-		updateCodeVisualizer();
-	}
-	function createCountUp() {
-		var startVal = document.getElementById("startVal").value;
-		startVal = Number(startVal.replace(',','').replace(' ',''));
-		var endVal = document.getElementById("endVal").value;
-		endVal = Number(endVal.replace(',','').replace(' ',''));
-		var decimals = document.getElementById("decimals").value,
-			duration = document.getElementById("duration").value,
-			prefix = document.getElementById("prefix").value,
-			suffix = document.getElementById("suffix").value;
-		options = {
-			useEasing : useEasing,
-			useGrouping : useGrouping,
-			separator : document.getElementById("separator").value,
-			decimal : document.getElementById("decimal").value,
-			prefix: prefix,
-			suffix: suffix
-		}
-	}
 
-	</script>
 </html>

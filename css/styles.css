@@ -81,7 +81,9 @@ h2 {
     text-shadow: 2px 2px 2px white;
     font-weight: 800;
 }
-
+.logoHero {
+    margin-top: 130px;
+}
 /*===================================stats section==========================================*/
 .stats {
     height:350px;
