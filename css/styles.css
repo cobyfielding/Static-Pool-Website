@@ -159,7 +159,7 @@ h2 {
 
 .overlay-1 {
     background-color:gray;
-    height:950px;
+    height:600px;
 }
 
 .overlay-1:hover {
@@ -167,7 +167,7 @@ h2 {
 }
 .overlay-2 {
     background-color:#00AEEF;
-    height:950px;
+    height:600px;
 }
 
 .overlay-2:hover {
@@ -179,6 +179,7 @@ h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height:600px;
 
 }
 
