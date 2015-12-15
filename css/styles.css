@@ -16,7 +16,7 @@ h2 {
 
 
 .navbar {
-    background-color: #DDDDDD;
+    background-color: #838383;
     border-color: transparent;
     margin-bottom: 0px;
     position:relative;
@@ -25,13 +25,14 @@ h2 {
     z-index:20;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
-    text-shadow: 2px 2px 2px #fff;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
     font-weight:700;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    background-color: #00AEEF;
+    background-color: #00569B;
     border-radius: 9px 24px 9px 24px ;
+    color:#fff;
 
 }
 
@@ -79,7 +80,7 @@ h2 {
 
 
 .carousel-inner .item {
-    height: 600px;
+    height: 750px;
     background-size: cover;
     background-position: center;
 }
@@ -108,7 +109,7 @@ h2 {
 
 /*======================spacer 2 section===============================*/
 .spacer2 {
-    height:600px;
+    height:200px;
     background-color:#000;
 }
 .spacer2 h2 {
@@ -116,11 +117,10 @@ h2 {
 
 }
 .vikingLogo {
+    height: 200px;
 }
 
-.vikingPic {
-    height: 300px;
-}
+
 .logo {
     height:200px;
 
@@ -132,7 +132,7 @@ h2 {
     background-image:url(../images/view.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:600px;
+    height:750px;
 }
 .viewh {
     color: #FFFF00;
@@ -152,41 +152,102 @@ h2 {
     height:150px;
     background-color: black;
     padding-top:30px;
+    position:relative;
+    text-align:center;
+}
+.spacer3 h2 {
+    position:absolute;
+    bottom:0;
+    left:25%;
+
 }
 
+/*================================split screen section============================*/
 
-/*split screen section*/
-
+.splitScreen {
+    overflow:hidden;
+}
 .overlay-1 {
+    overflow: hidden;
     background-color:gray;
     height:600px;
+    -webkit-transition: all 4s ease-in;
+                -moz-transition: all 4s ease-in-out;
+                -o-transition: all 4s ease-in-out;
+                -ms-transition: all 4s ease-in-out;
 }
 
 .overlay-1:hover {
-    background-color:transparent;
+    -webkit-transform: translate(-200em,-0em);
+                -moz-transform: translate(3em,0);
+                -o-transform: translate(3em,0);
+                -ms-transform: translate(3em,0);
 }
 .overlay-2 {
+    overflow: hidden;
     background-color:#00AEEF;
     height:600px;
+    width:100%;
+    -webkit-transition: all 4s ease-in;
+                -moz-transition: all 4s ease-in-out;
+                -o-transition: all 4s ease-in-out;
+                -ms-transition: all 4s ease-in-out;
 }
 
 .overlay-2:hover {
-    background-color: transparent;
+    overflow: hidden;
+    -webkit-transform: translate(200em,0em);
+                -moz-transform: translate(3em,0);
+                -o-transform: translate(3em,0);
+                -ms-transform: translate(3em,0);
 }
 
-.main-bg {
-    background-image: url(../images/background.jpg);
+.vikingPic {
+    background-image: url(../images/vikingPic.jpg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     height:600px;
-
+    padding-left: 0;
+    padding-right: 0;
 }
 
+.gunitePic {
+    background-image: url(../images/gunitePic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    padding-left: 0;
+    padding-right: 0;
+}
 
+/*===================================footer section==================================*/
 
+footer {
+    height:200px;
+    background-color: #fff;
+    padding:15px;
+}
+footer ul li  {
+    list-style: none;
+}
 
+.logo1 {
+    margin-top:21px;
+}
 
+.footerLogo {
+    height:107px;
+    margin-top:21px;
+}
+
+.social {
+    padding-top:40px;
+}
+
+.social a {
+    padding-right:10px;
+    padding-left:10px;
+}
 
 
 asdf
