@@ -193,7 +193,7 @@ h2 {
     overflow: hidden;
     background-color:rgba(0, 157, 222, 0.88);;
     height:600px;
-
+    transition: background-color 2s;
 }
 
 .overlay-1:hover {
@@ -204,13 +204,18 @@ h2 {
     background-color:rgba(235, 253, 212, 0.92);
     height:600px;
     width:100%;
+    transition: background-color 2s;
 }
 
 .overlay-2:hover {
     background-color: transparent;
 }
-.splitScreen {
-
+.overlay-1 h2 {
+    position: relative;
+    top: 232px;
+    color: #10516B;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .overlay-2 h2{
     position: relative;
@@ -276,7 +281,7 @@ footer ul li  {
 
 #menu {
     background-color: rgba(0, 157, 222, 0.88);
-    height: 650px;
+    height: 700px;
     padding: 50px;
 
 }
@@ -288,7 +293,9 @@ footer ul li  {
 .food img {
     height: 200px;
 }
-
+.food p {
+    height: 175px;
+}
 .gallery {
     background-color: rgba(235, 253, 212, 0.92);
 }
