@@ -16,10 +16,10 @@ h2 {
 
 
 .navbar {
-    background-color: #838383;
+    background-color: rgba(179, 204, 204, .3);
     border-color: transparent;
     margin-bottom: 0px;
-    position:relative;
+    position:fixed;
     top:0;
     width:100%;
     z-index:20;
@@ -63,19 +63,28 @@ h2 {
 }
 /*===================================stats section==========================================*/
 .stats {
-    height:350px;
-    background-image: url(../images/statsBG.png);
+    height:300px;
+    background-image: url(../images/pentagonBG.png);
     margin-bottom:0;
+    background-attachment: fixed;
+    z-index: 1;
+    border-top: solid 5px rgba(51, 51, 255, .8);
+    border-bottom: solid 5px rgba(51, 51, 255, .8);
 }
 .stats .container {
-    padding:115px 0;
+    padding:55px 0;
 }
-/*============================spacer=====================================================*/
 
-.spacer {
-    height:100px;
-    background-color: black;
+.statCounter {
+    font-size: 2em;
+    color: rgba(51, 51, 255, .8);
+    background-color: #fff;
+    padding:15px;
+    border-radius: 50%;
+
 }
+
+
 /*=====================carousel section====================================================*/
 
 
@@ -107,25 +116,32 @@ h2 {
     background-image: url(../images/carouselFour.jpg);
 }
 
-/*======================spacer 2 section===============================*/
-.spacer2 {
-    height:200px;
-    background-color:#000;
-}
-.spacer2 h2 {
-    margin-top:0px;
+/*==========================================Background 2================================*/
 
+.background2 {
+    background-image: url(../images/pentagonBG.png);
+    background-attachment: fixed;
+    height: 300px;
+    border-top: solid 5px rgba(51, 51, 255, .8);
+    border-bottom: solid 5px rgba(51, 51, 255, .8);
+}
+.adMover {
+    position: relative;
+    bottom: -60px;
+}
+.vikingBlurb {
+    color: rgb(51, 153, 255);
 }
 .vikingLogo {
     height: 200px;
+    position: relative;
 }
 
 
 .logo {
     height:200px;
-
+    position: relative;
 }
-
 
 /*=======================================view section===========================*/
 .view {
@@ -147,22 +163,27 @@ h2 {
     right:100px;
 }
 
-/*===================================spacer 3 section===============================*/
-.spacer3 {
-    height:150px;
-    background-color: black;
-    padding-top:30px;
-    position:relative;
-    text-align:center;
+/*===================================Background 3 section===============================*/
+
+.background3 {
+    background-image: url(../images/pentagonBG.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    height: 300px;
+    position: relative;
+    border-top: solid 5px rgba(51, 51, 255, .8);
+    border-bottom: solid 5px rgba(51, 51, 255, .8);
 }
-.spacer3 h2 {
-    position:absolute;
-    bottom:0;
-    margin:0 auto;
-
-
+.background3 .container {
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
 }
 
+.finance {
+    height: 100px;
+
+}
 /*================================split screen section============================*/
 
 .splitScreen {
@@ -170,55 +191,54 @@ h2 {
 }
 .overlay-1 {
     overflow: hidden;
-    background-color:gray;
+    background-color:rgba(0, 157, 222, 0.88);;
     height:600px;
-    -webkit-transition: all 4s ease-in;
-                -moz-transition: all 4s ease-in-out;
-                -o-transition: all 4s ease-in-out;
-                -ms-transition: all 4s ease-in-out;
+
 }
 
 .overlay-1:hover {
-    -webkit-transform: translate(-200em,-0em);
-                -moz-transform: translate(3em,0);
-                -o-transform: translate(3em,0);
-                -ms-transform: translate(3em,0);
+    background-color: transparent;
 }
 .overlay-2 {
     overflow: hidden;
-    background-color:#00AEEF;
+    background-color:rgba(235, 253, 212, 0.92);
     height:600px;
     width:100%;
-    -webkit-transition: all 4s ease-in;
-                -moz-transition: all 4s ease-in-out;
-                -o-transition: all 4s ease-in-out;
-                -ms-transition: all 4s ease-in-out;
 }
 
 .overlay-2:hover {
-    overflow: hidden;
-    -webkit-transform: translate(200em,0em);
-                -moz-transform: translate(3em,0);
-                -o-transform: translate(3em,0);
-                -ms-transform: translate(3em,0);
+    background-color: transparent;
 }
+.splitScreen {
 
+}
+.overlay-2 h2{
+    position: relative;
+    top: 232px;
+    color: #10516B;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 .vikingPic {
     background-image: url(../images/vikingPic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height:600px;
     padding-left: 0;
     padding-right: 0;
+
 }
 
 .gunitePic {
     background-image: url(../images/gunitePic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height:600px;
     padding-left: 0;
     padding-right: 0;
+
 }
 
 /*===================================footer section==================================*/
@@ -249,3 +269,27 @@ footer ul li  {
     padding-right:10px;
     padding-left:10px;
 }
+
+
+
+/*=======================================gunite page=========================================*/
+
+#menu {
+    background-color: rgba(0, 157, 222, 0.88);
+    height: 600px;
+
+}
+
+.food {
+    background-color: #fff;
+
+}
+.food img {
+    height: 200px;
+}
+
+
+
+
+
+a
