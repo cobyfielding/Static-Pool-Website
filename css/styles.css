@@ -5,6 +5,31 @@ h2 {
     font-weight: 600;
 }
 
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;}
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(overlay.png); }
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+	}
 
 
 /*==============================practice===================================*/
@@ -292,6 +317,12 @@ footer ul li  {
 
 /*=======================================gunite page=========================================*/
 
+.navbar-brand {
+    padding-top:0;
+}
+.navbar-brand img {
+    height: 50px;
+}
 #menu {
     background-color: rgba(0, 157, 222, 0.88);
     height: 700px;
@@ -312,13 +343,15 @@ footer ul li  {
 .gallery {
     background-color: rgba(235, 253, 212, 0.92);
 }
-
-.thumb .thumbnail img {
+.thumb {
+    padding:0;
+}
+.thumb  img {
     -webkit-filter: grayscale(80%);
     filter: grayscale(80%);
     transition: -webkit-filter 1s;
 }
-.thumb .thumbnail img:hover {
+.thumb  img:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
