@@ -321,6 +321,19 @@ footer ul li  {
     .food p {
         height: 375px;
     }
+    .food h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #menu li a {
+        color: #000;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    #menu .nav.nav-tabs li a {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 2px;
+
 
 }
 /*============================================viking page======================================== */
