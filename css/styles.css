@@ -275,7 +275,20 @@ footer ul li  {
     padding-left:10px;
 }
 
+/*==========================================media queries=============================================*/
 
+@media (max-width: 767px) {
+    .stats {
+        height: 540px;
+    }
+    .background2 {
+        height: 680px;
+    }
+    footer ul {
+        padding: 0;
+    }
+
+}
 
 /*=======================================gunite page=========================================*/
 
@@ -300,6 +313,16 @@ footer ul li  {
     background-color: rgba(235, 253, 212, 0.92);
 }
 
+@media (max-width:767px){
+    #menu {
+        height: 1625px;
+        padding:0;
+    }
+    .food p {
+        height: 375px;
+    }
+
+}
 /*============================================viking page======================================== */
 
 
