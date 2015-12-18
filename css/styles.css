@@ -313,6 +313,17 @@ footer ul li  {
     background-color: rgba(235, 253, 212, 0.92);
 }
 
+.thumb .thumbnail img {
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+    transition: -webkit-filter 1s;
+}
+.thumb .thumbnail img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
 @media (max-width:767px){
     #menu {
         height: 1625px;
@@ -331,10 +342,15 @@ footer ul li  {
         font-size: 20px;
     }
     #menu .nav.nav-tabs li a {
-    border: 1px solid rgba(0, 0, 0, 0.23);
-    border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        border-radius: 2px;
+    }
+}
 
-
+@media (min-width: 768px) and (max-width: 992px){
+    .food p {
+        height: 260px;
+    }
 }
 /*============================================viking page======================================== */
 
