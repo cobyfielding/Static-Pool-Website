@@ -389,10 +389,18 @@ footer ul li  {
 }
 /*============================================viking page======================================== */
 
-
-
-
-
-
-
-a
+.fiberglass {
+    background-color: rgba(24, 77, 110, 0.74);;
+}
+.paragraph {
+    padding:40px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.vikingh1 {
+    margin-top:0;
+    padding-top:40px ;
+}
+.vikingGallery {
+    padding-top: 40px;
+}
