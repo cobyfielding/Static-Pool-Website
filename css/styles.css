@@ -24,12 +24,42 @@ h2 {
 
 #overlay{ background-image: url(overlay.png); }
 
-* html #overlay{
-	background-color: #333;
-	back\ground-color: transparent;
-	background-image: url(blank.gif);
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
-	}
+
+.bg {
+    background-image: url(../images/pentagonBG.png);
+    height: 100%;
+    background-attachment: ;
+    width:100%;
+    background-repeat: repeat;
+}
+/*.container {
+    padding-left: 0;
+}*/
+/*section {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}*/
+
+.myContainer {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.colorChanger .myGreen {
+    background-color: rgba(235, 253, 212, 0.92);
+    padding: 25px;
+}
+
+.colorChanger .myBlue {
+    background-color: rgba(0, 157, 222, 0.88);
+    padding: 25px;
+}
+
+
+
 
 
 /*==============================Navigation===================================*/
@@ -44,15 +74,20 @@ h2 {
     background-color: rgba(179, 204, 204, .3);
     border-color: transparent;
     margin-bottom: 0px;
-    position:fixed;
-    top:0;
     width:100%;
     z-index:20;
+
+}
+.navbar-default .navbar-nav > li {
+    position: relative;
+    right: 5%;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
     text-shadow: 2px 2px 2px #000;
     font-weight:700;
+    font-size: 16px;
+
 }
 .navbar-default .navbar-nav > li > a:hover {
     background-color: #00569B;
@@ -64,12 +99,14 @@ h2 {
 /*===========================hero=======================================*/
 
 .jumbotron {
-    height: 600px;
-    background-image: url(../images/pool-water.jpg);
+    height: 400px;
+    background-image: url(../images/pentagonBG.png);
     background-position: center ;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: repeat;
     margin-bottom:0;
+    position: relative;
+    top: -55px;
 }
 
 .jumbotron h1 {
@@ -84,12 +121,15 @@ h2 {
     font-weight: 800;
 }
 .logoHero {
-    margin-top: 130px;
+    margin-top: 35px;
+}
+.headline {
+    height: 345px;
 }
 /*===================================stats section==========================================*/
 .stats {
     height:300px;
-    background-image: url(../images/pentagonBG.png);
+    background-color: white;
     margin-bottom:0;
     background-attachment: fixed;
     z-index: 1;
@@ -144,7 +184,7 @@ h2 {
 /*==========================================Background 2================================*/
 
 .background2 {
-    background-image: url(../images/pentagonBG.png);
+    background-color: white;
     background-attachment: fixed;
     height: 300px;
     border-top: solid 5px rgba(51, 51, 255, .8);
@@ -191,13 +231,14 @@ h2 {
 /*===================================Background 3 section===============================*/
 
 .background3 {
-    background-image: url(../images/pentagonBG.png);
+    background-color: white;
     background-attachment: fixed;
     background-repeat: repeat;
     height: 300px;
     position: relative;
     border-top: solid 5px rgba(51, 51, 255, .8);
     border-bottom: solid 5px rgba(51, 51, 255, .8);
+    padding-top: 75px;
 }
 .background3 .container {
     height: 200px;
@@ -404,3 +445,12 @@ footer ul li  {
 .vikingGallery {
     padding-top: 40px;
 }
+
+
+/*maintenance and repair page*/
+
+
+
+
+
+/*==============================================financing page===========================================*/
