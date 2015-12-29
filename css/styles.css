@@ -505,7 +505,9 @@ div#maintenance p{
 .row.secondRow {
     margin-top: 125px;
 }
-
+.secondRow h2 {
+    margin-top: 0;
+}
 .annualH2 {
     margin-top: 0;
 }
