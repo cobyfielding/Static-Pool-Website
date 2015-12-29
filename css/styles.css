@@ -46,6 +46,7 @@ h2 {
     margin: 0 auto;
     background-color: white;
     border: 3px solid black;
+    padding: 10px;
 }
 
 .colorChanger .myGreen {
@@ -156,6 +157,9 @@ h2 {
     color:rgba(235, 253, 212, 0.92);;
     text-shadow: 2px 2px 1px black;
     font-weight: 600;
+}
+.carousel-caption p {
+    font-size: 1.2em;
 }
 .carousel-inner .item {
     height: 750px;
@@ -372,7 +376,7 @@ footer ul li  {
 }
 #menu {
     background-color: rgba(192, 227, 255, 0.9);
-    height: 700px;
+    height: 800px;
     padding: 50px;
 
 }
@@ -397,6 +401,9 @@ section.gallery {
 }
 .food p {
     height: 175px;
+}
+div#maintenance p{
+    height: 300px;
 }
 .gallery {
     background-color: rgba(235, 253, 212, 0.92);
@@ -451,7 +458,7 @@ section.gallery {
 /*============================================viking page======================================== */
 
 .fiberglass {
-    background-color: rgba(24, 77, 110, 0.74);;
+    background-color: rgb(24, 77, 110);
 }
 .paragraph {
     padding:40px;
@@ -460,7 +467,8 @@ section.gallery {
 }
 .vikingh1 {
     margin-top:0;
-    padding-top:40px ;
+    padding-top:40px;
+    color: #fff;
 }
 .vikingButton{
     color: rgba(192, 227, 255, 0.9);
