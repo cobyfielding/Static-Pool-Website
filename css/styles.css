@@ -49,6 +49,11 @@ h2 {
     padding: 10px;
 }
 
+@media (max-width: 767px) {
+    .myContainer {
+        width:90%;
+    }
+}
 .colorChanger .myGreen {
     background-color: rgba(235, 253, 212, 0.92);
     padding: 25px;
