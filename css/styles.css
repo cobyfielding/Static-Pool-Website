@@ -371,7 +371,7 @@ footer ul li  {
 
 }
 
-/*=======================================gunite page=========================================*/
+/*=======================================Shotcrete page=========================================*/
 
 .navbar-brand {
     padding-top:0;
@@ -379,11 +379,24 @@ footer ul li  {
 .navbar-brand img {
     height: 50px;
 }
+
+section.gallery {
+    padding-bottom: 149px;
+    margin-bottom: 0px;
+}
+.paragraphShotcrete {
+    padding:40px;
+    font-size: 1.2em;
+    color: rgba(108, 98, 97, 0.74);
+}
+
+
+/*=========================================info page=======================================================*/
+
 #menu {
     background-color: rgba(192, 227, 255, 0.9);
     height: 800px;
     padding: 50px;
-
 }
 #menu .nav.nav-tabs li a {
     border: 1px solid rgba(0, 0, 0, 0.23);
@@ -392,11 +405,6 @@ footer ul li  {
 .col-xs-6.col-sm-3.food {
     padding: 15px;
 }
-section.gallery {
-    padding-bottom: 149px;
-    margin-bottom: 0px;
-}
-
 .food {
     background-color: #fff;
 
@@ -470,6 +478,7 @@ div#maintenance p{
     font-size: 1.2em;
     color: #fff;
 }
+
 .vikingh1 {
     margin-top:0;
     padding-top:40px;
