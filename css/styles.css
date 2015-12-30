@@ -49,7 +49,7 @@ h2 {
     padding: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .myContainer {
         width:90%;
     }
@@ -514,16 +514,26 @@ div#maintenance p{
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10px;
+    margin: 0 auto;
 }
-
+.chemTest {
+    margin:0 auto;
+}
+.repairImg {
+    margin:0 auto;
+}
 .row.secondRow {
     margin-top: 125px;
 }
 .secondRow h2 {
     margin-top: 0;
+    text-align: center;
 }
 .annualH2 {
     margin-top: 0;
+}
+.listFix li {
+    list-style: none;
 }
 
 /*==============================================financing page===========================================*/
