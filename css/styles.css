@@ -206,6 +206,25 @@ h2 {
 .margin-fix {
     margin-bottom: 20px;
 }
+
+
+/*===================================alternate carousel for xs====================================*/
+
+.alternate-caption {
+    position: relative;
+    top: 180px;
+}
+.alternate-caption h2 {
+    color: rgba(235, 253, 212, 0.92);
+    text-shadow: 2px 2px 1px black;
+}
+.alternate-caption p {
+    color: #fff;
+}
+.alternate-caption a {
+    background-color: rgba(192, 227, 255, 0.9);
+    color: #000;
+}
 /*==========================================Background 2================================*/
 
 .background2 {
@@ -451,7 +470,7 @@ div#maintenance p{
 
 @media (max-width:767px){
     #menu {
-        height: 1535px;
+        height: 1750px;
         padding:0;
     }
     .food p {
